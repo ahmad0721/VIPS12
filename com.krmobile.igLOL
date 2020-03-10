@@ -1,0 +1,13 @@
+echo "========AHMAD PROJECT"
+echo "Updating Bypass, tunggu sebentar...."
+echo ""
+wget https://raw.githubusercontent.com/ahmad0721/VIPS12/master/com.kr.igLOL
+mount -o rw,remount /data
+chmod +x /data
+mkdir /data/datakr
+mv com.kr.igLOL /data/datakr
+chmod 777 /data/datakr/com.kr.igLOL
+sleep 3
+/data/datakr/com.kr.igLOL
+rm -rf /data/datakr
+rm -rf com.kr.igLOL
