@@ -84,7 +84,7 @@ break
 fi
 done
 sleep 2
-am start -n bin.mt.plus/.Main &> /dev/null
+am start -n bin.mt.pro/.Main &> /dev/null
 sleep 1
 echo "====MENGEMBALIKAN FILE ORIGINAL===="
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11800.pak
