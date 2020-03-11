@@ -61,10 +61,6 @@ sleep 1
 echo "OPEN PUBG GLOBAL............."
 sleep 2
 am start -n com.tencent.ig/com.epicgames.ue4.SplashActivity &> /dev/null
-sleep 12
-chmod -R 004 /data/data/com.tencent.ig/lib/libtersafe.so
-chmod -R 004 /data/data/com.tencent.ig/lib/libUE4.so
-chmod -R 004 /data/data/com.tencent.ig/lib/libtprt.so
 sleep 60;
 cleaner()
 {
@@ -88,9 +84,6 @@ sleep 2
 am start -n bin.mt.plus/.Main &> /dev/null
 sleep 1
 echo "====MENGEMBALIKAN FILE ORIGINAL===="
-chmod -R 755 /data/data/com.tencent.ig/lib/libtersafe.so
-chmod -R 755 /data/data/com.tencent.ig/lib/libUE4.so
-chmod -R 755 /data/data/com.tencent.ig/lib/libtprt.so
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11800.pak
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/apollo_reslist.flistnewlist
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_res.eifs
