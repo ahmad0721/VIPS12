@@ -66,6 +66,10 @@ sleep 1
 echo "OPEN PUBG GLOBAL............."
 sleep 2
 am start -n com.tencent.ig/com.epicgames.ue4.SplashActivity &> /dev/null
+sleep 6
+chmod 004 /data/data/com.tencent.ig/lib/libtersafe.so
+chmod 004 /data/data/com.tencent.ig/lib/libUE4.so
+chmod 004 /data/data/com.tencent.ig/lib/libtprt.so
 sleep 60;
 cleaner()
 {
