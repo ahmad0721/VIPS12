@@ -4,7 +4,7 @@ echo "KECEPATAN DOWNLOAD BYPASS TERGANTUNG KONEKSI KALIAN"
 echo ""
 echo "mendownload file bypass.................."
 wget https://github.com/ahmad0721/vipmitos/raw/master/fileinject1 https://github.com/ahmad0721/vipmitos/raw/master/fileinject2
-sleep 0.5
+sleep 0.6
 echo ""
 echo "==========Play Safe bro=========="
 sleep 1
