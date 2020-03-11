@@ -60,10 +60,6 @@ echo "======== ClearCache Done ========"
 sleep 1
 echo "OPEN PUBG GLOBAL............."
 sleep 2
-rm -rf /data/data/com.tencent.ig/app_crashrecord
-rm -rf /data/data/com.tencent.ig/files
-touch /data/data/com.tencent.ig/app_crashrecord
-touch /data/data/com.tencent.ig/files
 am start -n com.tencent.ig/com.epicgames.ue4.SplashActivity &> /dev/null
 sleep 60;
 cleaner()
