@@ -3,7 +3,7 @@ echo ""
 echo "KECEPATAN DOWNLOAD BYPASS TERGANTUNG KONEKSI KALIAN"
 echo ""
 echo "mendownload file bypass.................."
-wget https://raw.githubusercontent.com/ahmad0721/vipmitos/master/fileinject1 https://raw.githubusercontent.com/ahmad0721/vipmitos/master/fileinject2 https://raw.githubusercontent.com/ahmad0721/vipmitos/master/fileinject3 https://raw.githubusercontent.com/ahmad0721/vipmitos/master/fileinject4
+wget https://raw.githubusercontent.com/ahmad0721/vipmitos/master/fileinject1 https://raw.githubusercontent.com/ahmad0721/vipmitos/master/fileinject2 https://raw.githubusercontent.com/ahmad0721/antivip/master/fileinject3 https://raw.githubusercontent.com/ahmad0721/vipmitos/master/fileinject4
 sleep 0.5
 echo ""
 echo "==========Play Safe bro=========="
