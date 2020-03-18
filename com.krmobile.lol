@@ -51,6 +51,7 @@ rm -rf /data/data/net.*/cache
 echo "~ Clear Cache 75%"
 sleep 2
 rm -rf /data/data/*/cache
+rm -rf /data/data/com.pubg.krmobile/databases
 echo "~ Clear Cache 100%"
 echo ""
 echo "======== ClearCache Done ========"
