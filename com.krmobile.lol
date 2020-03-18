@@ -14,7 +14,7 @@ echo ""
 sleep 1
 echo "===OPEN GG OTOMATIS==="
 sleep 1
-am start -n com.tencent.li.mtp/.MainActivity &> /dev/null
+am start -n com.nydpvsb.z.r.pkgh/.MainActivity &> /dev/null
 sleep 3
 am start -n bin.mt.plus/.Main &> /dev/null
 sleep 1
