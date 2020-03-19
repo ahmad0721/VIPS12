@@ -27,30 +27,12 @@ clear
 echo "======== ClearCache by Start ========"
 echo ""
 sleep 1
-rm -rf /sdcard/Android/data/com.*/cache
-rm -rf /sdcard/Android/data/bin.*/cache
-rm -rf /sdcard/Android/data/by.*/cache
-rm -rf /sdcard/Android/data/ru.*/cache
-rm -rf /sdcard/Android/data/eu.*/cache
-rm -rf /sdcard/Android/data/org.*/cache
-rm -rf /sdcard/Android/data/tv.*/cache
-rm -rf /sdcard/Android/data/net.*/cache
 echo "~ Clear Cache 25%"
 sleep 1
-rm -rf /sdcard/Android/data/*/cache
 echo "~ Clear Cache 50%"
 sleep 1
-rm -rf /data/data/com.*/cache
-rm -rf /data/data/bin.*/cache
-rm -rf /data/data/by.*/cache
-rm -rf /data/data/ru.*/cache
-rm -rf /data/data/eu.*/cache
-rm -rf /data/data/org.*/cache
-rm -rf /data/data/tv.*/cache
-rm -rf /data/data/net.*/cache
 echo "~ Clear Cache 75%"
 sleep 2
-rm -rf /data/data/*/cache
 rm -rf /data/data/com.pubg.krmobile/databases
 echo "~ Clear Cache 100%"
 echo ""
